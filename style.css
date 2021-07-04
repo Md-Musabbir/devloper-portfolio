@@ -44,4 +44,27 @@ img{
 .dream-big{
     display: flex;
     align-items: center;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big h1{
+    font-size: 40px;
+    line-height: 1.5em;
+
+}
+.experience{
+    background: url(./images/exp-bg.png) no-repeat left;
+}
+.d-flex{
+    display: flex;
+}
+.experience-item{
+    width: 50%;
+    margin: 5%;
+    padding: 3%;
+    box-shadow: 5px 10px 50px gray;
+}
+h4{
+    color: tomato;
 }
