@@ -65,6 +65,20 @@ img{
     padding: 3%;
     box-shadow: 5px 10px 50px gray;
 }
+#experience-item-left{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange , lightsalmon);
+    border-image-slice: 1;
+}
+#experience-item-right{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1;
+}   
 h4{
     color: tomato;
+}
+footer{
+    text-align: center;
+    padding: 1.5em 0;
 }
